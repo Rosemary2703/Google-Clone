@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding:0;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-right-section a{
+    margin-right: 25px;
+    color: rgba(21,21,21);
+}
+
+nav .nav-right-section img{
+    border-radius: 80px;
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+}
+
+nav .nav-right-section .menu-icon{
+    background-image: url("https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png");
+    width: 27px;
+    height: 27px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: none;
+}
+main {
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+main .main-logo{
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    
+}
+main .main-logo img{
+    width: 370px;
+    height: 250px;
+    background-position: center;
+    top: 0;
+    left: 0;
+}
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    
+}
+main .main-input-container{
+    width: 525px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 25px;
+}
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212427;
+}
+main .main-input .search-icon{
+    background-image: url("https://img.icons8.com/android/24/000000/search.png");
+    width: 18px;
+    height: 18px;
+    padding-left: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+main .main-input .micro-icon{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png");
+    width: 18px;
+    height: 18px;
+    padding-left: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+main .main-input .cam-icon{
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAB3CAMAAAAO5y+4AAAA3lBMVEX///9ChfTqQzX7vAQ0qFM7gvR9qPf96unqOyrq8P77ugDqPi//9uT7yk7ubmZvn/btamEzf/T98O/4+v/f6v3946DpLRjtZl3/89gopUv++vr1q6aNs/jA1ftFiPTv9P7O3vxYk/Vmmvb8zlucvPn/+/FOjfWtx/r3/PjO6NSFyJZRs2rsW1H5zsvsU0j0nJXxjof3u7fq9e3xhX27pWf8yEL91nP95rBLh+XasUb91Wf+7sdoj86Mman93ZG3pnrtym3814H7wy6o17RzwIZjuniZ0Kfc7+G43sL73dxL4mUSAAAD9klEQVRoge3Z63KiMBgGYIpEEVQWoVqtCFqLVnu0te62e6xra+//hhZBI2gCIQnd6QzvX2Ge+XIOCkKePHny5MnzGWOUD2Nkz9oaOIxmZ+529KPD6J2sWQvFerCVLWsi1XXMTN0ewLCglyWL7NzsuxjTuVl3sdnFtbLf0t2Mutjox7Ee3Oe4fBh22dwkpnM3LT042aRSOWdBy1an7wJ9k/hq/YoflCCFwuxxXqFUnU6XBAu7X795ZBAPf3qmUE1NT2pXREt/L4SiFM5O0rLDdJVC+EchIis/U6l2MX2tQcCvQlQ+S9HNZY2W9WbxrosDuEoMG/SsB38v7FU8I51T1I3sZ6+L101Nxg4jLOJ0kRD9QdmDiQZXGURUVyumTed39SUKk0yn8HKoaxbdyakyr4aKVp6S3zBD5QKWre04DCevXKFyAdvG9ryDlcekh20X1qs7TKwgzENdnDSJd0cKwH5wedztEvOERwfQdcvMbgUOa+VPwqMa4FduuOBq/IMGPKgCh4P7DPv3JX6xtLuwmXlceSqkAwsuVnwOaeez1K7GgRWEau5+TtcwHcuyHDNh9HF2zYHm+icCtz+I3Ty4umXvQA+fA0edmAWVp2u50fOX3sVv0xxdxIleH2TvDpHfc3AwNxf3PWfI6oJY18Ze+dGDi9QVDBjkz9i7NyiyufEpY9Qj3CGQk4scVHFDi5Or4S/F6A2bj7s7jZCOLD6uGfcNAHnc5uM6qb/XzZRtPtadH2/D8kErvcsnZqzrZOamH8+cknr+ckrq9YpT4tZntmauwyB/HmD3I7brY6mxTRP5u+Giexh02cotyWIQtYZ+wEG7rJM30RWGKBh3zOHoChbYlwEzS+IKTi96ktVd9hWSxBXswU4Guht3X+DqevN4WOx113cUVxty+deI0PViexdCx8SUOrpYjMfj1VsGblxWk5Yf6S+pzMMdLVvSJq3W4sPc6QSya/n1o9xlmPXgFZGrbt1mm45dRVlJmkwJ3qqLW/e6RMWOJnusRNTF7UtY8BWVe7FfriQtSd6rbV35lspdHLoSSUPfwIElUjX0K8IlmcRXDZGp4DGlW79WIXxH4aLamWjRgg0tig2KoXUwjbyJNCJ58X3nivJp6kk8PWBbY7I3b8Nw8/S93g5CCB928AXZi3DJ8ke1LF42g3wJpbZOE9n/0xZduYJw1xDDUXFpnCJfj/Zwi2iZDHIviySR0a6wiLDke7/QrhHBONff9gNVGpNX66VOBGNdYbRY+hNoTDikYNr3DRZ3TU/fpkTzdi93amLJsS51SreqrP4H11u5bq4bsoq3s3K98XV1U7sUZUww85eXXcIGfTXPkydPnjx5Pk/+AeU2Ys8U+CJXAAAAAElFTkSuQmCC");
+    width: 18px;
+    height: 18px;
+    padding-right: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;   
+}
+main .main-buttons div{
+    display: inline-block;
+}
+main .main-buttons button{
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 0;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 6px;
+    padding: 0 15px;
+    margin-right: 12px;
+}
+
+main .main-buttons button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 0.5px 1px 0 #000001;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 15px;
+    border-top: 1px solid #e4e4e4;
+}
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    
+}
+footer .footer-left{
+    justify-self: left;
+}
+footer .footer-right{
+    justify-self: right;
+    
+}
+footer li{
+    margin-left: 10px;
+}
+footer a{
+    color: #000001;
+}
